@@ -1,7 +1,7 @@
 # Portfolio-Website  
 Interactive Portfolio Website.
 
-Live Preview: https://shashwatitidke.github.io/
+Live Preview: https://shashwati-tidke.github.io/ShashwatiTidke/
 
 If you have any suggestions or queries, feel free to reach out to me.
 
