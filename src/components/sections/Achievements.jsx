@@ -4,14 +4,21 @@ import { Award } from "lucide-react";
 export const Achievements = () => {
   const achievements = [
     {
-      title: "1st place in Pune Zone for the Space App Challenge by NASA",
-      category: "Rural Marketing",
-      date: "Feb 2020",
+      title: "5th Rank – Meta Hacker Cup 2025 (Final Round, AI Track)",
+      category: " Multiagent AI & Competitive Programming",
+      date: "Dec 2025"
     },
+
+
     {
       title: "Received special appreciation for Business tool development",
       category: "Emerson Automation Solution",
       date: "Feb 2022",
+    },
+    {
+      title: "1st place in Pune Zone for the Space App Challenge by NASA",
+      category: "Rural Marketing",
+      date: "Feb 2020",
     },
   ];
 

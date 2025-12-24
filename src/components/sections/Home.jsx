@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import profileImg from "../../assets/profile.jpg";
+import resumePdf from "../../../public/resume.pdf";
 
 export const Home = () => {
   // TEXT ROTATION WITH TYPING EFFECT
@@ -122,8 +123,8 @@ export const Home = () => {
             {/* Resume Button */}
             <div>
               <a
-                href="/resume.pdf"
-                download
+                href={resumePdf}
+                download="Shashwati_Tidke_CV.pdf"
                 className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
               >
                 Download Resume

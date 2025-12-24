@@ -1,3 +1,5 @@
+import resumePdf from "../../public/resume.pdf";
+
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
@@ -77,8 +79,8 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         Experience
       </a>
       <a
-        href="/resume.pdf"
-        download
+        href={resumePdf}
+        download="Shashwati_Tidke_CV.pdf"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
             ${

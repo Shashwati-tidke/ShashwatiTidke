@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import resumePdf from "../../public/resume.pdf";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -41,8 +42,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Experience
             </a>
             <a
-              href="/resume.pdf"
-              download
+              href={resumePdf}
+              download="Shashwati_Tidke_CV.pdf"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Download Resume
