@@ -98,7 +98,7 @@ export const Home = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/shashwati"
+                href="https://www.linkedin.com/in/shashwati-tidke-82a557183/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-2 rounded-full hover:bg-white/10 transition-colors"
@@ -109,7 +109,7 @@ export const Home = () => {
               </a>
 
               <a
-                href="https://github.com/shashwati"
+                href="https://github.com/Shashwati-tidke"
                 target="_blank"
                 rel="noreferrer"
                 className="p-2 rounded-full hover:bg-white/10 transition-colors"
