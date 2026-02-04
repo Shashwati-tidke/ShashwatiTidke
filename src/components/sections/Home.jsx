@@ -90,7 +90,7 @@ export const Home = () => {
 
             {/* Social Icons */}
             <div className="flex items-center gap-3 text-gray-300">
-              <a href="mailto:shashwati@example.com" className="p-2 rounded-full hover:bg-white/10 transition-colors">
+              <a href="mailto:shashwatitidke@gmail.com" className="p-2 rounded-full hover:bg-white/10 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="1.6" viewBox="0 0 24 24" className="w-6 h-6">
                   <path d="M4 6h16v12H4z" />
                   <path d="m3 7 9 6 9-6" />
